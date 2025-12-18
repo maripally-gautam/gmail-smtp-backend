@@ -1,19 +1,16 @@
 {
   "name": "gmail-smtp-backend",
   "version": "1.0.0",
-  "description": "",
   "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
+    "nodemailer": "^7.0.11",
     "node-cron": "^4.2.1",
-    "nodemailer": "^7.0.11"
+    "pg": "^8.11.5"
   }
 }
